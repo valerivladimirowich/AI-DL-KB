@@ -1,0 +1,29 @@
+{
+  "timestamp": "20260308T112210Z",
+  "feature_importance": {
+    "num__income": 0.32954439743568087,
+    "num__credit_score": 0.4192617756689215,
+    "num__loan_amount": 0.410482703060483,
+    "num__employment_years": 0.3980533532683217,
+    "num__age": 0.4636268311095387,
+    "cat__gender_Female": 0.005496412834350264,
+    "cat__gender_Male": 0.00549910448060051,
+    "cat__race_GroupA": 0.08017439671125456,
+    "cat__race_GroupB": 0.1738576413810055,
+    "cat__race_GroupC": 0.2540293464460099
+  },
+  "concept_scores": {
+    "Age": 0.4636268311095387,
+    "Gender": 0.010995517314950774,
+    "Race": 0.50806138453827
+  },
+  "approval_rate_by_gender": {
+    "Female": 0.6666666666666666,
+    "Male": 0.6666666666666666
+  },
+  "approval_rate_by_race": {
+    "GroupA": 1.0,
+    "GroupB": 1.0,
+    "GroupC": 0.0
+  }
+}

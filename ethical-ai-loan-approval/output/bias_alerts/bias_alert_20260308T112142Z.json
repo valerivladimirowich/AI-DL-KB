@@ -1,0 +1,17 @@
+{
+  "timestamp": "20260308T112142Z",
+  "alerts": [
+    {
+      "type": "BiasAlert",
+      "concept": "Age",
+      "score": 0.4636,
+      "message": "Protected concept 'Age' has high importance score."
+    },
+    {
+      "type": "BiasAlert",
+      "concept": "Race",
+      "score": 0.5081,
+      "message": "Protected concept 'Race' has high importance score."
+    }
+  ]
+}

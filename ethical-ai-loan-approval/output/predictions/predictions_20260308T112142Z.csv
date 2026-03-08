@@ -1,0 +1,7 @@
+income,credit_score,loan_amount,employment_years,age,gender,race,approved,predicted_approved,prediction_probability
+55000,690,12000,4,29,Male,GroupA,1,1,0.6814619357374002
+38000,610,15000,2,24,Female,GroupB,0,1,0.5436767972713549
+92000,760,25000,8,45,Male,GroupA,1,1,0.9197961128835179
+47000,640,10000,3,52,Female,GroupC,0,0,0.17918829288524163
+61000,720,18000,6,34,Female,GroupB,1,1,0.8263127932224243
+43000,600,9000,1,58,Male,GroupC,0,0,0.0748150727075337

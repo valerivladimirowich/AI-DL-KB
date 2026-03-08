@@ -1,0 +1,6 @@
+DL-Safe Rule Ideas
+==================
+
+1. If a feature with high importance maps to a ProtectedAttribute, flag for compliance review.
+2. If compliance review finds statistically concerning correlation with a ProtectedAttribute, generate BiasAlert.
+3. If BiasAlert is generated, save it to the repository output/bias_alerts folder.

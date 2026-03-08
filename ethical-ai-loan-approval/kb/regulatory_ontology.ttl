@@ -1,0 +1,15 @@
+@prefix ex: <http://example.org/ethical-loans#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:ProtectedAttribute a rdfs:Class .
+ex:Race a rdfs:Class ; rdfs:subClassOf ex:ProtectedAttribute .
+ex:Gender a rdfs:Class ; rdfs:subClassOf ex:ProtectedAttribute .
+ex:Age a rdfs:Class ; rdfs:subClassOf ex:ProtectedAttribute .
+
+ex:FairnessConstraint a rdfs:Class .
+ex:BiasAlert a rdfs:Class .
+ex:LoanDecision a rdfs:Class .
+
+ex:mapsToConcept a rdf:Property .
+ex:triggersAlert a rdf:Property .
